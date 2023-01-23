@@ -1,0 +1,18 @@
+name: adv_ml
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.6.*
+  - matplotlib
+  - numpy
+  - pyyaml
+  - tqdm
+  - pytorch=1.4.0
+  - torchvision=0.5.0
+  - jupyter
+  - seaborn
+  - pandas
+  - tensorboard 
+  - python-dotenv 
+prefix: /opt/adv_ml
