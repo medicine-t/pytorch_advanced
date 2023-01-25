@@ -13,7 +13,7 @@
 		"all",
 		"--shm-size",
 		"8gb"
-	]
+	],
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -23,5 +23,16 @@
 	// Configure tool-specific properties.
 	// "customizations": {},
 	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "devcontainer"
+	//"remoteUser": "vscode",
+	"settings": {
+		"terminal.integrated.shell.*": "/bin/bash"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.jupyter",
+				"ms-python.python"
+			]
+		}
+	}
 }
